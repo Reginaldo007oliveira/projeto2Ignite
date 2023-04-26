@@ -1,9 +1,9 @@
 import React from 'react'
-import { Cube } from 'phosphor-react'
+import { Wall } from 'phosphor-react'
 const Sphera: React.FC = () => {
   return (
     <>
-      <Cube color="green" weight="duotone" width="111px" height="111px">
+      <Wall color="green" weight="duotone" width="111px" height="111px">
         <animate
           attributeName="opacity"
           values="0;1;0"
@@ -19,7 +19,7 @@ const Sphera: React.FC = () => {
           to="360 0 0"
           repeatCount="indefinite"
         ></animateTransform>
-      </Cube>
+      </Wall>
     </>
   )
 }
